@@ -1,33 +1,78 @@
+// "user script";
+// //let country;
+
+// const doLiveIsKitaj = "китай";
+// const doLiveIsChile = "чили";
+// const doLiveIsAustralia = "австралия";
+// const doLiveIsIndia = "индия";
+// const doLiveIsJamaica = "ямайка";
+// const kitajPrice = 100;
+// const chilePrice = 250;
+// const australiaPrice = 170;
+// const indiaPrice = 80;
+// const jamaicaPrice = 120;
+
+// const country = prompt("Введите страну для доставки");
+// if (country === null) {
+//   alert("Отмена пользователем");
+// } else {
+//   // country = country.toLowerCase();
+
+//   switch (country.toLocaleLowerCase()) {
+//     case doLiveIsKitaj:
+//       alert(`"Доставка в китай будет стоить ${kitajPrice} кредитов `);
+//       break;
+//     case doLiveIsChile:
+//       alert(`"Доставка в китай будет стоить ${chilePrice} кредитов `);
+//       break;
+//     case doLiveIsAustralia:
+//       alert(`"Доставка в китай будет стоить ${australiaPrice} кредитов `);
+//       break;
+//     case doLiveIsIndia:
+//       alert(`"Доставка в китай будет стоить ${isIndiaPrice} кредитов `);
+//       break;
+//     case doLiveIsJamaica:
+//       alert(`"Доставка в китай будет стоить ${jamaicaPrice} кредитов `);
+//       break;
+
+//     default:
+//       alert("В вашей стране доставка не доступна");
+//   }
+// }
+
 "user script";
 //let country;
 
-const doLiveIsKitajPrice = 100;
-const doLiveIsChilePrice = 250;
-const doLiveIsAustraliaPrice = 170;
-const doLiveIsIndiaPrice = 80;
-const doLiveIsJamaicaPrice = 120;
+const doLiveIsKitaj = "китай";
+const doLiveIsChile = "чили";
+const doLiveIsAustralia = "австралия";
+const doLiveIsIndia = "индия";
+const doLiveIsJamaica = "ямайка";
+const kitajPrice = 100;
+const chilePrice = 250;
+const australiaPrice = 170;
+const indiaPrice = 80;
+const jamaicaPrice = 120;
 
-let country = prompt("Введите страну для доставки");
+const country = prompt("Введите страну для доставки");
 if (country !== null) {
   // country = country.toLowerCase();
 
   switch (country.toLocaleLowerCase()) {
-    case doLiveIsKitajPrice:
-      alert(`"Доставка в китай будет стоить ${doLiveIsChilePrice} кредитов `);
+    case doLiveIsKitaj:
+      alert(`"Доставка в китай будет стоить ${kitajPrice} кредитов `);
       break;
-    case doLiveIsChilePrice:
-      alert(`"Доставка в китай будет стоить ${doLiveIsChilePrice} кредитов `);
+    case doLiveIsChile:
+      alert(`"Доставка в китай будет стоить ${chilePrice} кредитов `);
       break;
-    case doLiveIsAustraliaPrice:
-      alert(
-        `"Доставка в китай будет стоить ${doLiveIsAustraliaPrice} кредитов `
-      );
+    case doLiveIsAustralia:
+      alert(`"Доставка в китай будет стоить ${australiaPrice} кредитов `);
       break;
-    case doLiveIsIndiaPrice:
-      alert(`"Доставка в китай будет стоить ${doLiveIsIndiaPrice} кредитов `);
+    case doLiveIsIndia:
+      alert(`"Доставка в китай будет стоить ${isIndiaPrice} кредитов `);
       break;
-    case doLiveIsJamaicaPrice:
-      alert(`"Доставка в китай будет стоить ${doLiveIsJamaicaPrice} кредитов `);
+    case doLiveIsJamaica:
+      alert(`"Доставка в китай будет стоить ${jamaicaPrice} кредитов `);
       break;
 
     default:

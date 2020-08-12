@@ -8,7 +8,7 @@ do {
       alert("Было введено не число, попробуйте еще раз");
       continue;
     }
-    total += -input;
+    total += +input;
   }
 } while (input !== null);
 
